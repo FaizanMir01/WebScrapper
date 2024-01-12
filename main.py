@@ -23,5 +23,5 @@ def extract_urls(url):
 
 
 # Example usage
-url_to_scrape = "https://sis.kalasalingam.ac.in/login"
+url_to_scrape = "https://website_url_here"
 extract_urls(url_to_scrape)
