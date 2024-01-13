@@ -1,7 +1,10 @@
 # Web Scraper with Python
 
 This Python script is a simple web scraper that extracts and prints URLs from a specified webpage. It utilizes the `requests` library for making HTTP requests and the `BeautifulSoup` library for parsing HTML content.
-
+### 1. Main.py
+Used to get urls from single Page
+### 1. recursive.py
+Recursively explores URLs up to a specified depth.
 ## Import Libraries
 
 - **requests:** Allows the script to send HTTP requests.
