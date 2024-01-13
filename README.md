@@ -1,4 +1,17 @@
-# WebScrapper
-This Python script is a web scraping tool designed to extract and print URLs from a given web page. The script uses the requests library to send a GET request to the specified URL and checks if the request is successful (status code 200). If successful, it uses BeautifulSoup, a Python library for pulling data out of HTML and XML files, to parse the HTML content of the page.
+# Web Scraper with Python
 
-The script then searches for all anchor tags (<a>) with an href attribute (i.e., links) and extracts and prints the URLs. If there is an error with the request (status code other than 200), it prints an error message indicating the status code.
+This Python script is a simple web scraper that extracts and prints URLs from a specified webpage. It utilizes the `requests` library for making HTTP requests and the `BeautifulSoup` library for parsing HTML content.
+
+## Import Libraries
+
+- **requests:** Allows the script to send HTTP requests.
+- **BeautifulSoup:** A library for pulling data out of HTML and XML files.
+
+## Function Definition: `extract_urls`
+
+### Parameters:
+
+- `url:` The starting URL to scrape.
+- `depth:` Current depth level in the recursion (default is 1).
+- `max_depth:` Maximum depth to explore (default is 3).
+
