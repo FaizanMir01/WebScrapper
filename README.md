@@ -25,6 +25,10 @@ The URLs are appended to the Excel sheet.
 Finally, the Excel file is saved with the provided filename, and a message is printed to indicate the successful completion of the process.
 
 This script can be useful for web scraping tasks where you need to extract and analyze links from a webpage, such as building a sitemap or collecting data for further processing. Adjusting the max_depth parameter allows you to control the depth of the scraping, preventing infinite recursion.
+
+### Vulnerable.py
+this file will take the urls from xl sheet and check for sql injection vulnerablity using sql_map.
+
 ## Import Libraries
 
 - **requests:** Allows the script to send HTTP requests.
